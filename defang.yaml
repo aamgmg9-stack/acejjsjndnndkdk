@@ -1,0 +1,9 @@
+services:
+  cyberbot:
+    build: .
+    deploy:
+      resources:
+        reservations:
+          cpus: '0.25'
+          memory: 256M
+          
